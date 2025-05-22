@@ -2,7 +2,7 @@ import express from 'express';
 import passport from 'passport';
 import { StreamViStrategy } from 'passport-streamvi';
 import dotenv from 'dotenv';
-import { Profile } from 'passport';
+import { Profile, Strategy } from 'passport';
 import path from 'path';
 
 // Loading environment variables
